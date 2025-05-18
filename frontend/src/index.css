@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Modify default element styles (e.g., h1, section).
+Add global base styles (e.g., fonts, colors). */
+@layer base {
+  section {
+    @apply py-[75px];
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-full w-[1440px] mx-auto px-5;
+  }
+  .btn {
+    @apply bg-primaryColor text-white font-[600] mt-[38px] py-[15px] px-[35px] rounded-[50px];
+  }
+  .heading {
+    @apply text-[44px] leading-[54px] font-[700] text-headingColor;
+  }
+  .text__para {
+    @apply text-[18px] font-[400] leading-[30px] text-textColor mt-[18px];
+  }
+  .header {
+    @apply bg-[url('./assets/images/mask.png')] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px];
+  }
+  .hero__section {
+    @apply bg-[url('./assets/images/hero-bg.png')] bg-no-repeat bg-center bg-cover;
+  }
+  .form__label {
+    @apply text-[16px] font-semibold leading-[30px] text-textColor mb-3;
+  }
+
+  .form__input {
+    @apply w-full px-4 py-3 border border-solid border-[#0066ff61] focus:outline-none focus:border-primaryColor
+     text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer rounded-md;
+  }
+  .form__input-1 {
+    @apply w-full px-4 py-3 border border-solid border-[#0066ff61] focus:outline-none focus:border-primaryColor
+     text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer rounded-md;
+  }
+}
+
+
+/* This CSS block uses a media query to apply specific styles 
+when the screen width is 1024 pixels or less (typically targeting 
+tablets and mobile devices).  */
+@media only screen and (max-width: 1024px) {
+  .container {
+    @apply w-full;
+  }
+  section {
+    @apply py-[35px];
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    @apply text-[26px] leading-[36px];
+  }
+  .text__para {
+    @apply text-[16px] leading-7 mt-3;
+  }
+}
+
+
