@@ -62,9 +62,9 @@ cd ./backend
 npm install
 ```
 > 📌 **Note:** Make sure to  fill all environment variable in `.env file` in both `frontend` and `backend` folders before starting the app.
-  ℹ️ **Tip:** The  `_redirects` file is required when deploying Single Page Applications (SPAs) like those built with React Router, Vue Router, or Angular,     
-              especially on static hosting platforms like Netlify, Vercel, or GitHub Pages.It ensures client-side routing works after page refresh or direct URL     
-              access.If hosting platform don't find a file that matches the request,serve the `mention file from _redirects`instead (where React app lives).
+
+ℹ️ **Tip:** The  `_redirects` file is required when deploying Single Page Applications (SPAs) like those built with React Router, Vue Router, or Angular,     
+especially on static hosting platforms like Netlify, Vercel, or GitHub Pages.It ensures client-side routing works after page refresh or direct URL access.If hosting platform don't find a file that matches the request,serve the `mention file from _redirects`instead (where React app lives).
 
 ### Run the application
 ```
