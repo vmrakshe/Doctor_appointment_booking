@@ -42,7 +42,7 @@ A full-stack **Doctor Appointment Booking** application built using the **MERN S
 git clone https://github.com/your-username/doctor-appointment-app.git
 cd doctor-appointment-app
 ```
-### create frontend site
+### create react app(vite)
 
 ```bash
 npm create vite@latest <your_folder_name>
