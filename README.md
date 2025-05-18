@@ -112,4 +112,7 @@ npm run dev
 - [MongoDB](https://www.mongodb.com/)
 - [Tailwind](https://tailwindcss.com/)
 
+## 📄 License
+This project is licensed under the [MIT License](./LICENSE).
+
 
