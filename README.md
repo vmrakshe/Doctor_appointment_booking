@@ -1,22 +1,22 @@
 ## 🖼 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./assests/home_page.png)
+![Home Page](./assets/home_page.png)
 
 ### 📃 Signup Page
-![Signup Page](./assests/signup_page.png)
+![Signup Page](./assets/signup_page.png)
 
 ### 🧑🏽‍💼 User Dashboard Page
-![User Dashboard Page](./assests/user_dashboard.png)
+![User Dashboard Page](./assets/user_dashboard.png)
 
 ### 👩🏽‍⚕️ Doctor Dashboard Page
-![User Dashboard Page](./assests/doctor_dashboard.png)
+![User Dashboard Page](./assets/doctor_dashboard.png)
 
 ### 📅 Appointment Booking
-![Booking Form](./assests/doctor_appointment.png)
+![Booking Form](./assets/doctor_appointment.png)
 
 ### 💳 Payment Page
-![Payment Page](./assests/payment_page.png)
+![Payment Page](./assets/payment_page.png)
 
 
 
