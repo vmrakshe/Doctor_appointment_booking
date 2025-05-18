@@ -1,9 +1,27 @@
 ## 🖼 Screenshots
 
-![Screenshot 2025-05-18 193200](https://github.com/user-attachments/assets/d3a2bd15-74f3-4621-aa66-6937c7df48cd)
-![Screenshot 2025-05-18 192721](https://github.com/user-attachments/assets/7028c977-4d37-45c5-bd00-af286a9833b0)
-![Screenshot 2025-05-18 192345](https://github.com/user-attachments/assets/9e4cc212-3bf9-4fc5-aa59-9e41252f1622)
-![Screenshot 2025-05-18 192210](https://github.com/user-attachments/assets/24b0a9aa-1a1c-40cb-a9d1-49efd5328533)
+### 🏠 Home Page
+![Home Page](./assests/home_page.png)
+
+### 📃 Signup Page
+![Signup Page](./assests/signup_page.png)
+
+### 🧑🏽‍💼 User Dashboard Page
+![User Dashboard Page](./assests/user_dashboard.png)
+
+### 👩🏽‍⚕️ Doctor Dashboard Page
+![User Dashboard Page](./assests/doctor_dashboard.png)
+
+### 📅 Appointment Booking
+![Booking Form](./assests/doctor_appointment.png)
+
+### 💳 Payment Page
+![Payment Page](./assests/payment_page.png)
+
+
+
+
+
 
 ## 🏥 Doctor Appointment Booking App
 
@@ -93,5 +111,8 @@ npm run dev
 - [Express](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [Tailwind](https://tailwindcss.com/)
+
+## 📄 License
+This project is licensed under the [MIT License](./LICENSE).
 
 
